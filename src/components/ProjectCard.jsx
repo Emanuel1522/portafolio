@@ -10,6 +10,12 @@ export default function ProjectCard({ project }) {
     const title = language === 'es' ? project.titleEs : project.titleEn;
     const desc = language === 'es' ? project.descEs : project.descEn;
 
+    const categoryColors = {
+        frontend: 'bg-primary-500',
+        backend: 'bg-accent-500',
+        ai: 'bg-sky-500',
+    };
+
     return (
         <motion.div
             layout
@@ -35,8 +41,8 @@ export default function ProjectCard({ project }) {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 {/* Category badge */}
                 <span className={`absolute top-3 right-3 px-3 py-1 rounded-full text-xs font-semibold text-white
-          ${project.category === 'frontend' ? 'bg-primary-500' : 'bg-accent-500'}`}>
-                    {project.category === 'frontend' ? 'Frontend' : 'Backend'}
+          ${categoryColors[project.category]}`}>
+                    {t[project.category]}
                 </span>
             </div>
 
