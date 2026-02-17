@@ -13,6 +13,7 @@ export default function TechStack() {
         frontend: t.frontend,
         backend: t.backend,
         databases: t.databases,
+        ai: t.ai,
         tools: t.tools,
     };
 

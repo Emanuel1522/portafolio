@@ -23,6 +23,7 @@ export const translations = {
             frontend: 'Frontend',
             backend: 'Backend',
             databases: 'Bases de Datos',
+            ai: 'Inteligencia Artificial',
             tools: 'Herramientas',
         },
         projects: {
@@ -31,6 +32,7 @@ export const translations = {
             all: 'Todos',
             frontend: 'Frontend',
             backend: 'Backend',
+            ai: 'IA',
             viewDemo: 'Ver Demo',
             viewGithub: 'GitHub',
             noDemo: 'Sin Demo',
@@ -87,6 +89,7 @@ export const translations = {
             frontend: 'Frontend',
             backend: 'Backend',
             databases: 'Databases',
+            ai: 'Artificial Intelligence',
             tools: 'Tools & Others',
         },
         projects: {
@@ -95,6 +98,7 @@ export const translations = {
             all: 'All',
             frontend: 'Frontend',
             backend: 'Backend',
+            ai: 'AI',
             viewDemo: 'View Demo',
             viewGithub: 'GitHub',
             noDemo: 'No Demo',

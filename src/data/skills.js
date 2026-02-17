@@ -1,10 +1,11 @@
 import {
     FaHtml5, FaCss3Alt, FaJs, FaReact, FaBootstrap,
-    FaJava, FaGitAlt, FaGithub,
+    FaJava, FaGitAlt, FaGithub, FaRocket, FaRobot,
 } from 'react-icons/fa';
 import {
     SiSpringboot, SiMysql, SiPostgresql, SiPostman,
     SiSwagger, SiVercel, SiReactrouter, SiJson,
+    SiGooglegemini, SiAnthropic, SiGoogle,
 } from 'react-icons/si';
 import { DiScrum } from 'react-icons/di';
 
@@ -31,6 +32,15 @@ export const skillCategories = [
         skills: [
             { name: 'MySQL', icon: SiMysql, color: '#4479A1' },
             { name: 'PostgreSQL', icon: SiPostgresql, color: '#4169E1' },
+        ],
+    },
+    {
+        id: 'ai',
+        skills: [
+            { name: 'Gemini', icon: SiGooglegemini, color: '#8E75B2' },
+            { name: 'NotebookLM', icon: SiGoogle, color: '#4285F4' },
+            { name: 'Antigravity', icon: FaRocket, color: '#FF0000' },
+            { name: 'Claude', icon: SiAnthropic, color: '#D97757' },
         ],
     },
     {

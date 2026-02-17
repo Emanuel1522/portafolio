@@ -15,6 +15,7 @@ export default function ProjectsGrid() {
         { id: 'all', label: t.all },
         { id: 'frontend', label: t.frontend },
         { id: 'backend', label: t.backend },
+        { id: 'ai', label: t.ai },
     ];
 
     const filtered = filter === 'all'

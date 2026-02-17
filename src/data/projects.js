@@ -133,4 +133,17 @@ export const projects = [
         github: 'https://github.com/Emanuel1522/proyecto-final-backend',
         image: '/projects/restaurante-backend.JPG',
     },
+    // ── AI Projects ──
+    {
+        id: 12,
+        titleEs: 'Calculadora Moderna con IA',
+        titleEn: 'Modern AI Calculator',
+        descEs: 'Calculadora científica moderna con diseño glassmorphism y capacidades avanzadas.',
+        descEn: 'Modern scientific calculator with glassmorphism design and advanced capabilities.',
+        techs: ['HTML', 'CSS', 'JavaScript'],
+        category: 'ai',
+        demo: 'https://calculadora-moderna-five.vercel.app',
+        github: null,
+        image: '/projects/calculator.JPG',
+    },
 ];
