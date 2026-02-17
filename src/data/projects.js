@@ -143,7 +143,7 @@ export const projects = [
         techs: ['HTML', 'CSS', 'JavaScript'],
         category: 'ai',
         demo: 'https://calculadora-moderna-five.vercel.app',
-        github: null,
-        image: '/projects/calculator.JPG',
+        github: "https://github.com/Emanuel1522/calculadora-moderna.git",
+        image: '/projects/calculadora-moderna.JPG',
     },
 ];
