@@ -1,4 +1,29 @@
 export const projects = [
+    // ── AI Projects ──
+    {
+        id: 13,
+        titleEs: 'Creador de Currículum con IA',
+        titleEn: 'AI CV Builder',
+        descEs: 'Herramienta inteligente para crear currículums profesionales con sugerencias personalizadas y exportación en PDF.',
+        descEn: 'Intelligent tool to create professional CVs with personalized suggestions and PDF export.',
+        techs: ['React', 'Tailwind CSS', 'PDF Export'],
+        category: 'ai',
+        demo: 'https://curriculum-creator-one.vercel.app',
+        github: 'https://github.com/Emanuel1522/curriculum-creator',
+        image: '/projects/curriculum-creator.JPG',
+    },
+    {
+        id: 12,
+        titleEs: 'Calculadora Moderna con IA',
+        titleEn: 'Modern AI Calculator',
+        descEs: 'Calculadora científica moderna con diseño glassmorphism y capacidades avanzadas.',
+        descEn: 'Modern scientific calculator with glassmorphism design and advanced capabilities.',
+        techs: ['HTML', 'CSS', 'JavaScript'],
+        category: 'ai',
+        demo: 'https://calculadora-moderna-five.vercel.app',
+        github: "https://github.com/Emanuel1522/calculadora-moderna.git",
+        image: '/projects/calculadora-moderna.JPG',
+    },
     // ── Frontend Projects ──
     {
         id: 1,
@@ -133,17 +158,5 @@ export const projects = [
         github: 'https://github.com/Emanuel1522/proyecto-final-backend',
         image: '/projects/restaurante-backend.JPG',
     },
-    // ── AI Projects ──
-    {
-        id: 12,
-        titleEs: 'Calculadora Moderna con IA',
-        titleEn: 'Modern AI Calculator',
-        descEs: 'Calculadora científica moderna con diseño glassmorphism y capacidades avanzadas.',
-        descEn: 'Modern scientific calculator with glassmorphism design and advanced capabilities.',
-        techs: ['HTML', 'CSS', 'JavaScript'],
-        category: 'ai',
-        demo: 'https://calculadora-moderna-five.vercel.app',
-        github: "https://github.com/Emanuel1522/calculadora-moderna.git",
-        image: '/projects/calculadora-moderna.JPG',
-    },
 ];
+
